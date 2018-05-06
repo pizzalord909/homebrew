@@ -1,0 +1,148 @@
+{
+	"monster": [
+{
+			"name": "Jotun Giant",
+			"size": "G",
+			"type": "giant",
+			"source": "ORHB 3pp",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": "20 (natural armor)",
+			"hp": {
+				"average": 407,
+				"formula": "22d20+176"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 30,
+			"dex": 8,
+			"con": 26,
+			"int": 18,
+			"wis": 20,
+			"cha": 14,
+			"save": {
+				"con": "+14",
+				"wis": "+11",
+				"cha": "+8"
+			},
+			"skill": {
+				"arcana": "+10",
+				"history": "+10",
+				"nature": "+10",
+				"stealth": "+5"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"senses": "darkvision 120 ft.",
+			"passive": 15,
+			"languages": "Common, Giant",
+			"cr": "22",
+			"trait": [
+				{
+					"name": "Immortality",
+					"entries": [
+						"Jotuns suffer no ill effects from age and are immune to life drain, ability damage, and ability drain."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The giant has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The giant's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Too Big to Notice",
+					"entries": [
+						"In spite of its immensity, the sheer size of the Jotun giant often causes those near it to confuse one at rest for part of the landscape. The jotun has advantage on Stealth checks when not moving."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The giant makes two greatclub attacks and a frightful presence attack, or one rock throwing attack."
+					]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"Melee Weapon Attack: {@hit +16} to hit, reach 30 ft., one target. Hit: 55 ({@dice 10d8+10}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"Ranged Weapon Attack: {@hit +16} to hit, range 90/240 ft., one target. Hit: 49 ({@dice 6d12+10}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the giant's choice that is within 120 feet of the giant and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. Once a creature's saving throw is successful, it is immune to the giant's Frightful Presence for the next 24 hours."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Rock Catching",
+					"entries": [
+						"If a rock or similar object is hurled at the giant, the giant can, with a successful DC 10 Dexterity saving throw, catch the missile and take no bludgeoning damage from it."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "",
+					"entries": [
+						"The Jotun giant can take 1 legendary action, and only at the end of another creature's turn. The giant regains the spent legendary action at the start of its turn."
+					]
+				},
+				{
+					"name": "Planar Return",
+					"entries": [
+						"If banished, a Jotun giant can return to the plane it departed 2/Day. If banished a third time, it cannot return."
+					]
+				}
+			],
+			"page": 226,
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Jotun giant's innate spellcasting ability is Wisdom (spell save DC 19). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell earthquake}",
+						"{@spell shapechange}",
+						"{@spell speak with animals}"
+					],
+					"daily": {
+						"1": [
+							"{@spell divination}"
+						],
+						"3": [
+							"{@spell bestow curse}",
+							"{@spell gust of wind}"
+						]
+					}
+				}
+			]
+		},
